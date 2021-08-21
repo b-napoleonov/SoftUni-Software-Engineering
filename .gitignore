@@ -17,6 +17,8 @@
 *.sln
 bin
 obj
+*.docx
+*.pptx
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
