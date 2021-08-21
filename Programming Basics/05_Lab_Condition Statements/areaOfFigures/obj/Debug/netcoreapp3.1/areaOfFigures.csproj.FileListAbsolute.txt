@@ -1,0 +1,12 @@
+C:\Users\Blago\Desktop\Programming_Basics\Lab_Proverki\conditionStatements\areaOfFigures\bin\Debug\netcoreapp3.1\areaOfFigures.exe
+C:\Users\Blago\Desktop\Programming_Basics\Lab_Proverki\conditionStatements\areaOfFigures\bin\Debug\netcoreapp3.1\areaOfFigures.deps.json
+C:\Users\Blago\Desktop\Programming_Basics\Lab_Proverki\conditionStatements\areaOfFigures\bin\Debug\netcoreapp3.1\areaOfFigures.runtimeconfig.json
+C:\Users\Blago\Desktop\Programming_Basics\Lab_Proverki\conditionStatements\areaOfFigures\bin\Debug\netcoreapp3.1\areaOfFigures.runtimeconfig.dev.json
+C:\Users\Blago\Desktop\Programming_Basics\Lab_Proverki\conditionStatements\areaOfFigures\bin\Debug\netcoreapp3.1\areaOfFigures.dll
+C:\Users\Blago\Desktop\Programming_Basics\Lab_Proverki\conditionStatements\areaOfFigures\bin\Debug\netcoreapp3.1\areaOfFigures.pdb
+C:\Users\Blago\Desktop\Programming_Basics\Lab_Proverki\conditionStatements\areaOfFigures\obj\Debug\netcoreapp3.1\areaOfFigures.AssemblyInfoInputs.cache
+C:\Users\Blago\Desktop\Programming_Basics\Lab_Proverki\conditionStatements\areaOfFigures\obj\Debug\netcoreapp3.1\areaOfFigures.AssemblyInfo.cs
+C:\Users\Blago\Desktop\Programming_Basics\Lab_Proverki\conditionStatements\areaOfFigures\obj\Debug\netcoreapp3.1\areaOfFigures.csproj.CoreCompileInputs.cache
+C:\Users\Blago\Desktop\Programming_Basics\Lab_Proverki\conditionStatements\areaOfFigures\obj\Debug\netcoreapp3.1\areaOfFigures.dll
+C:\Users\Blago\Desktop\Programming_Basics\Lab_Proverki\conditionStatements\areaOfFigures\obj\Debug\netcoreapp3.1\areaOfFigures.pdb
+C:\Users\Blago\Desktop\Programming_Basics\Lab_Proverki\conditionStatements\areaOfFigures\obj\Debug\netcoreapp3.1\areaOfFigures.genruntimeconfig.cache

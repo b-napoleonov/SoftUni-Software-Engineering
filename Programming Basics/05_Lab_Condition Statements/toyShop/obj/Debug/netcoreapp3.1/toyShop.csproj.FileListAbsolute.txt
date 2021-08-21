@@ -1,0 +1,12 @@
+C:\Users\Blago\Desktop\Programming_Basics\Lab_Proverki\conditionStatements\toyShop\bin\Debug\netcoreapp3.1\toyShop.exe
+C:\Users\Blago\Desktop\Programming_Basics\Lab_Proverki\conditionStatements\toyShop\bin\Debug\netcoreapp3.1\toyShop.deps.json
+C:\Users\Blago\Desktop\Programming_Basics\Lab_Proverki\conditionStatements\toyShop\bin\Debug\netcoreapp3.1\toyShop.runtimeconfig.json
+C:\Users\Blago\Desktop\Programming_Basics\Lab_Proverki\conditionStatements\toyShop\bin\Debug\netcoreapp3.1\toyShop.runtimeconfig.dev.json
+C:\Users\Blago\Desktop\Programming_Basics\Lab_Proverki\conditionStatements\toyShop\bin\Debug\netcoreapp3.1\toyShop.dll
+C:\Users\Blago\Desktop\Programming_Basics\Lab_Proverki\conditionStatements\toyShop\bin\Debug\netcoreapp3.1\toyShop.pdb
+C:\Users\Blago\Desktop\Programming_Basics\Lab_Proverki\conditionStatements\toyShop\obj\Debug\netcoreapp3.1\toyShop.AssemblyInfoInputs.cache
+C:\Users\Blago\Desktop\Programming_Basics\Lab_Proverki\conditionStatements\toyShop\obj\Debug\netcoreapp3.1\toyShop.AssemblyInfo.cs
+C:\Users\Blago\Desktop\Programming_Basics\Lab_Proverki\conditionStatements\toyShop\obj\Debug\netcoreapp3.1\toyShop.csproj.CoreCompileInputs.cache
+C:\Users\Blago\Desktop\Programming_Basics\Lab_Proverki\conditionStatements\toyShop\obj\Debug\netcoreapp3.1\toyShop.dll
+C:\Users\Blago\Desktop\Programming_Basics\Lab_Proverki\conditionStatements\toyShop\obj\Debug\netcoreapp3.1\toyShop.pdb
+C:\Users\Blago\Desktop\Programming_Basics\Lab_Proverki\conditionStatements\toyShop\obj\Debug\netcoreapp3.1\toyShop.genruntimeconfig.cache
