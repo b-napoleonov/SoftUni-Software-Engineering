@@ -19,16 +19,16 @@
 <tr>
 <td>
 
-| **Course**                                                            | **Link**                                                   |
+| **Course**                                                            | **Certificate**                                                   |
 | --------------------------------------------------------------------- | ---------------------------------------------------------- |
 | <a href="https://softuni.bg/trainings/3319/programming-basics-with-csharp-march-2021" > Programming Basics with C# </a>         | <a href="https://softuni.bg/certificates/details/105076/d3e39d84"> Link</a> |
 | <a href="https://softuni.bg/trainings/3365/csharp-fundamentals-may-2021"> Programming Fundamentals with C# </a> | <a href="https://softuni.bg/certificates/details/111760/ba24ffbc"> Link</a> |
-|                                                                                  
+                                                                        
 
 </td>
 <td>
 
-| **Course**                                                                                  | **Link**                                                                    |
+| **Course**                                                                                  | **Certificate**                                                                    |
 | ------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
 
 
@@ -36,7 +36,7 @@
 
 <td>
 
-| **Course**                                                                               | **Link**                                                                    |
+| **Course**                                                                               | **Certificate**                                                                    |
 | ---------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
 
 
@@ -44,12 +44,3 @@
 </tr>
 
 </table>
-
-<h2> Diplomas </h2>
-
-<td>
-
-| **Diploma**      | **Link**                                                                    |
-| ---------------- | --------------------------------------------------------------------------- |
-
-</td>
