@@ -17,20 +17,23 @@ namespace _02._SetsOfElements
             HashSet<int> firstSet = new HashSet<int>();
             HashSet<int> secondSet = new HashSet<int>();
 
-            for (int i = 0; i < firstSetLenght; i++)
-            {
-                firstSet.Add(int.Parse(Console.ReadLine()));
-            }
-
-            for (int i = 0; i < secondSetLenght; i++)
-            {
-                secondSet.Add(int.Parse(Console.ReadLine()));
-            }
+            firstSet = SetFiller(firstSetLenght, firstSet);
+            secondSet = SetFiller(secondSetLenght, secondSet);
 
             foreach (var num in firstSet.Where(num => secondSet.Contains(num)))
             {
                 Console.Write(num + " ");
             }
+        }
+
+        private static HashSet<int> SetFiller(int lenght, HashSet<int> set)
+        {
+            for (int i = 0; i < lenght; i++)
+            {
+                set.Add(int.Parse(Console.ReadLine()));
+            }
+
+            return set;
         }
     }
 }
