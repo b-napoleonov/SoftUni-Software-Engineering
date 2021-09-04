@@ -8,37 +8,28 @@ namespace _04._FindEvensOrOdds
     {
         static void Main(string[] args)
         {
-            int[] bound = Console.ReadLine()
+            int[] boundaries = Console.ReadLine()
                 .Split(' ', StringSplitOptions.RemoveEmptyEntries)
                 .Select(int.Parse)
                 .ToArray();
 
-            List<int> numbers = new List<int>();
+            string command = Console.ReadLine();
 
-            for (int i = bound[0]; i <= bound[1]; i++)
+            Predicate<int> oddEven = command == "odd"
+                ? number => number % 2 != 0
+                : new Predicate<int>(number => number % 2 == 0);
+
+            List<int> result = new List<int>();
+
+            for (int n = boundaries[0]; n <= boundaries[1]; n++)
             {
-                numbers.Add(i);
+                if (oddEven(n))
+                {
+                    result.Add(n);
+                }
             }
 
-            Predicate<int> odd = n => n % 2 != 0;
-            Predicate<int> even = n => n % 2 == 0;
-
-            switch (Console.ReadLine())
-            {
-                case "odd":
-
-                    numbers = numbers.Where(n => odd(n)).ToList();
-
-                    break;
-
-                case "even":
-
-                    numbers = numbers.Where(n => even(n)).ToList();
-
-                    break;
-            }
-
-            Console.WriteLine(string.Join(" ", numbers));
+            Console.WriteLine(string.Join(" ", result));
         }
     }
 }
