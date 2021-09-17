@@ -1,4 +1,6 @@
-﻿namespace SoftUniParking
+﻿using System.Text;
+
+namespace SoftUniParking
 {
     public class Car
     {
@@ -16,11 +18,14 @@
 
         public override string ToString()
         {
-            return $@"Make: {Make}
-Model: {Model}
-HorsePower: {HorsePower}
-RegistrationNumber: {RegistrationNumber}";
+            StringBuilder sb = new StringBuilder();
 
+            sb.AppendLine($"Make: {Make}");
+            sb.AppendLine($"Model: {Model}");
+            sb.AppendLine($"HorsePower: {HorsePower}");
+            sb.AppendLine($"RegistrationNumber: {RegistrationNumber}");
+
+            return sb.ToString().Trim();
         }
     }
 }
