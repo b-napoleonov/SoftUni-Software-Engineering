@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31729.503
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Operations", "Operations\Operations.csproj", "{FFBB4705-3F77-4E49-90CC-FB78D40A6DB3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Animals", "Animals\Animals.csproj", "{EDB0A915-1768-406E-B668-B4755EFCA76B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shapes", "Shapes\Shapes.csproj", "{B08BCD8B-D964-4CF0-88F3-B9C8BFDF08DE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FFBB4705-3F77-4E49-90CC-FB78D40A6DB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFBB4705-3F77-4E49-90CC-FB78D40A6DB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFBB4705-3F77-4E49-90CC-FB78D40A6DB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFBB4705-3F77-4E49-90CC-FB78D40A6DB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDB0A915-1768-406E-B668-B4755EFCA76B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDB0A915-1768-406E-B668-B4755EFCA76B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDB0A915-1768-406E-B668-B4755EFCA76B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDB0A915-1768-406E-B668-B4755EFCA76B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B08BCD8B-D964-4CF0-88F3-B9C8BFDF08DE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B08BCD8B-D964-4CF0-88F3-B9C8BFDF08DE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B08BCD8B-D964-4CF0-88F3-B9C8BFDF08DE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B08BCD8B-D964-4CF0-88F3-B9C8BFDF08DE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {510DB934-B54C-4B06-B330-9818EB8A337F}
+	EndGlobalSection
+EndGlobal
