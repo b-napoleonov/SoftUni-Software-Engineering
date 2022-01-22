@@ -1,12 +1,15 @@
 function toggle() {
-    switch(document.getElementsByClassName('button')[0].textContent) {
+    let button = document.querySelector('.button');
+    let divExtra = document.querySelector('#extra');
+
+    switch(button.textContent) {
         case 'More':
-            document.getElementsByClassName('button')[0].textContent = 'Less';
-            document.getElementById('extra').style.display = 'block';
+            button.textContent = 'Less';
+            divExtra.style.display = 'block';
             break;
         case 'Less':
-            document.getElementsByClassName('button')[0].textContent = 'More';
-            document.getElementById('extra').style.display = 'none';
+            button.textContent = 'More';
+            divExtra.style.display = 'none';
             break;
     };
 }
