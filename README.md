@@ -30,7 +30,7 @@
 
 | **Course**                                                                                  | **Link**                                                                    |
 | ------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
-| <a href="https://softuni.bg/trainings/3588/js-advanced-january-2022"> JS Advanced </a>          | <> - </a> |
+| <a href="https://softuni.bg/trainings/3588/js-advanced-january-2022"> JS Advanced </a>          | <a> - </a> |
 
 
 </td>
