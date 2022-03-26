@@ -1,4 +1,4 @@
-import { clearUserData, getUserData, setUserData } from "../util.js";
+import { clearUserData, getUserData, notify, setUserData } from "../util.js";
 
 const host = 'http://localhost:3030';
 
@@ -21,7 +21,8 @@ async function request(url, options) {
         }
 
     } catch (err) {
-        alert(err.message);
+        notify(err.message);
+        //alert(err.message);
         throw err;
     }
 }

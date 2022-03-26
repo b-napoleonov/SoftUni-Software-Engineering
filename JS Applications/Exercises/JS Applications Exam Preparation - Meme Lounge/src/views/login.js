@@ -1,5 +1,6 @@
 import { login } from '../api/data.js';
 import { html } from '../lib.js';
+import { notify } from '../util.js';
 
 const loginTemplate = (onSubmit) => html`
 <section id="login">
@@ -26,6 +27,10 @@ export function loginPage(ctx) {
         const formData = new FormData(ev.target);
         const email = formData.get('email').trim();
         const password = formData.get('password').trim();
+
+        if (email == '' || password == '') {
+            return notify('Please fill in all fields');
+        }
         
         await login(email, password);
 

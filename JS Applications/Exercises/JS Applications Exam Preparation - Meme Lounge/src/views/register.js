@@ -1,5 +1,6 @@
 import { register } from '../api/data.js';
 import { html } from '../lib.js';
+import { notify } from '../util.js';
 
 const registerTemplate = (onSubmit) => html`
 <section id="register">
@@ -42,11 +43,11 @@ export function registerPage(ctx) {
         const gender = formData.get('gender');
 
         if(username == '' || email == '' || password == '' || gender == '') {
-            return alert('All fields must be filled!');
+            return notify('All fields must be filled!');
         }
 
         if (password !== repass) {
-            return alert('Passwords do not match!');
+            return notify('Passwords do not match!');
         }
 
         await register(username, email, password, gender);

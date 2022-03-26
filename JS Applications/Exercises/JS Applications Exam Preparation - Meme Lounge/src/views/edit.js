@@ -1,5 +1,6 @@
 import { editMeme, getMeme } from '../api/data.js';
 import { html } from '../lib.js';
+import { notify } from '../util.js';
 
 const editTemplate = (onSubmit, meme) => html`
 <section id="edit-meme">
@@ -30,7 +31,7 @@ export async function editPage(ctx) {
         const imageUrl = formData.get('imageUrl').trim();
 
         if (title == '' || description == '' || imageUrl == '') {
-            return alert('Please fill all fields');
+            return notify('Please fill all fields');
         }
 
         editMeme(ctx.params.id, {
