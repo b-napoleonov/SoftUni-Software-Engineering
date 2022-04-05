@@ -31,7 +31,7 @@
 | **Course**                                                                                  | **Link**                                                                    |
 | ------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------- |
 | <a href="https://softuni.bg/trainings/3588/js-advanced-january-2022"> JS Advanced </a>          | <a href="https://softuni.bg/certificates/details/126714/044ed5d2"> Link </a> |
-| <a href="https://softuni.bg/trainings/3589/js-applications-february-2022"> JS Applications </a>          | <a> - </a> |
+| <a href="https://softuni.bg/trainings/3589/js-applications-february-2022"> JS Applications </a>          | <a href="https://softuni.bg/certificates/details/130379/d377cb58"> Link </a> |
 
 
 </td>
