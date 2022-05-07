@@ -12,6 +12,7 @@
 
 <tr>
   <th> C# </th>
+  <th> JavaScript </th>
 </tr>
 
 <tr>
@@ -22,7 +23,8 @@
 | <a href="https://softuni.bg/trainings/3319/programming-basics-with-csharp-march-2021" > Programming Basics with C# </a>         | <a href="https://softuni.bg/certificates/details/105076/d3e39d84"> Link</a> |
 | <a href="https://softuni.bg/trainings/3365/csharp-fundamentals-may-2021"> Programming Fundamentals with C# </a> | <a href="https://softuni.bg/certificates/details/111760/ba24ffbc"> Link</a> |
 | <a href="https://softuni.bg/trainings/3483/csharp-advanced-september-2021"> C# Advanced </a> |  <a href="https://softuni.bg/certificates/details/114364/b12c60a3"> Link</a>
-| <a href="https://softuni.bg/trainings/3484/csharp-oop-october-2021"> C# OOP </a> |  <a href="https://softuni.bg/certificates/details/120505/e792de77"> Link</a>                                                            
+| <a href="https://softuni.bg/trainings/3484/csharp-oop-october-2021"> C# OOP </a> |  <a href="https://softuni.bg/certificates/details/120505/e792de77"> Link</a>
+| <a href="https://softuni.bg/trainings/3714/ms-sql-may-2022"> Databases Basics - MS SQL Server </a>   | <a href=""> -</a> |                                                            
 
 </td>
 
