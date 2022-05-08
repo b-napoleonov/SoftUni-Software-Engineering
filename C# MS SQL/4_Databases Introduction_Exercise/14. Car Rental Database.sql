@@ -1,0 +1,84 @@
+CREATE DATABASE CarRental
+
+CREATE TABLE Categories
+(
+	Id INT PRIMARY KEY IDENTITY,
+	CategoryName VARCHAR(50) NOT NULL,
+	DailyRate DECIMAL(4,2),
+	WeeklyRate DECIMAL(4,2),
+	MonthlyRate DECIMAL(4,2),
+	WeekendRate DECIMAL(4,2)
+)
+CREATE TABLE Cars
+(
+	Id INT PRIMARY KEY IDENTITY,
+	PlateNumber VARCHAR(50) NOT NULL,
+	Manufacturer VARCHAR(50) NOT NULL,
+	Model VARCHAR(50) NOT NULL,
+	CarYear INT NOT NULL,
+	CategoryId INT FOREIGN KEY REFERENCES Categories(Id),
+	Doors INT,
+	Picture VARBINARY(MAX),
+	Condition NVARCHAR(MAX),
+	Available NVARCHAR(MAX)
+)
+CREATE TABLE Employees
+(
+	Id INT PRIMARY KEY IDENTITY,
+	FirstName VARCHAR(50) NOT NULL,
+	LastName VARCHAR(50) NOT NULL,
+	Title VARCHAR(50),
+	Notes VARCHAR(MAX)
+)
+CREATE TABLE Customers
+(
+	Id INT PRIMARY KEY IDENTITY,
+	DriverLicenseNumber INT NOT NULL,
+	FullName VARCHAR(70) NOT NULL,
+	[Address] VARCHAR(70),
+	City VARCHAR(50),
+	ZIPCode VARCHAR(30),
+	Notes VARCHAR(MAX)
+)
+CREATE TABLE RentalOrders
+(
+	Id INT PRIMARY KEY IDENTITY,
+	EmployeeId INT FOREIGN KEY REFERENCES Employees(Id),
+	CustomerId INT FOREIGN KEY REFERENCES Customers(Id),
+	CarId INT FOREIGN KEY REFERENCES Cars(Id),
+	TankLevel INT,
+	KilometrageStart INT,
+	KilometrageEnd INT,
+	TotalKilometrage INT,
+	StartDate DATE,
+	EndDate DATE,
+	TotalDays INT,
+	RateApplied DECIMAL(4,2),
+	TaxRate DECIMAL(4,2),
+	OrderStatus VARCHAR(50) NOT NULL,
+	Notes VARCHAR(MAX)
+)
+INSERT INTO Categories VALUES
+('Sedan', NULL, NULL, NULL, NULL),
+('Hatchback', NULL, NULL, NULL, NULL),
+('Offroad', NULL, NULL, NULL, NULL)
+
+INSERT INTO Cars VALUES
+('A5642MN', 'Volkswagen', 'Golf', 2020, 2, NULL, NULL, NULL, NULL),
+('A4477AC', 'Audi', 'S8', 2018, 1, NULL, NULL, NULL, NULL),
+('C0000EK', 'BMW', 'X5', 2015, 3, NULL, NULL, NULL, NULL)
+
+INSERT INTO Employees VALUES
+('Nasko', 'Dimitrov', NULL, NULL),
+('Gosho', 'Petrov', NULL, NULL),
+('Mityo', 'Ailqkov', NULL, NULL)
+
+INSERT INTO Customers VALUES
+(674513, 'Pavlin Penev', NULL, NULL, NULL, NULL),
+(765238, 'Mityo Ailqkov', NULL, NULL, NULL, NULL),
+(321867, 'Viki STIGABE', NULL, NULL, NULL, NULL)
+
+INSERT INTO RentalOrders VALUES
+(2, 3, 2, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Sent', NULL),
+(3, 1, 3, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Received', NULL),
+(1, 2, 1, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'Sent', NULL)
