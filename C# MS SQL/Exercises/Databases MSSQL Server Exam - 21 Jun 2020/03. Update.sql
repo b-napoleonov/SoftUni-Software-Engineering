@@ -1,0 +1,3 @@
+UPDATE ROOMS
+	SET PRICE += 0.14 * Price
+  WHERE HotelId IN (5, 7, 9)
