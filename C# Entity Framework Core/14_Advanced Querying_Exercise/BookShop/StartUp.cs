@@ -6,6 +6,7 @@
     using System;
     using System.Collections.Generic;
     using System.Collections.Immutable;
+    using System.Globalization;
     using System.Linq;
     using System.Text;
 
@@ -170,13 +171,7 @@
 
         public static string GetBooksReleasedBefore(BookShopContext context, string date)
         {
-            string[] input = date.Split("-", StringSplitOptions.RemoveEmptyEntries);
-
-            int day = int.Parse(input[0]);
-            int month = int.Parse(input[1]);
-            int year = int.Parse(input[2]);
-
-            DateTime searchDate = new DateTime(year, month, day);
+            var searchDate = DateTime.ParseExact(date, "dd-MM-yyyy", CultureInfo.InvariantCulture);
 
             var books = context.Books
                 .Where(b => b.ReleaseDate.Value.Date < searchDate)
