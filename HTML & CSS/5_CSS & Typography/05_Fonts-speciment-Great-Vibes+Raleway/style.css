@@ -1,0 +1,20 @@
+@font-face {
+    font-family: Raleway;
+    src: url(https://fonts.googleapis.com/css2?family=Montserrat&family=Raleway:wght@100&display=swap);
+}
+
+@font-face {
+    font-family: Great Vibes;
+    src: url(https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat&family=Raleway:wght@100&display=swap);
+}
+
+html {
+    font-family: Raleway, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+h1, h2 {
+    font-family: Great Vibes, cursive;
+    line-height: 1.2;
+    font-weight: bold;
+}
